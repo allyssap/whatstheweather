@@ -1,3 +1,7 @@
+:root{
+  background-color: green;
+}
+
 .App {
   text-align: center;
 }
@@ -19,7 +23,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+  font-size: 4em;
+}
+
+.weatherBubbles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather{
+  width: max-content;
+  padding: 1% 10%;
+  border-radius: 25px;
+}
+
+h1{
+  font-size: large;
+}
+
+.day{
+  padding: 1% 10%;
+  border-radius: 25px;
+  background-color: rgb(224, 189, 92);
+  color:black;
+}
+
+.night{
+  background-color: rgb(23, 15, 97);
+  color:white;
 }
