@@ -40,11 +40,13 @@ export default function App() {
         Whats the Weather?
       </h1>
       <div className="weatherBubbles">
-      {(typeof data.location != 'undefined') ? (
-        <Weather weatherData={data}/>
-      ): (
-        <div></div>
-      )}
+        {(typeof data.location != 'undefined') ? (
+          <Weather weatherData={data}/>
+        ): (
+      <div>
+        
+      </div>
+        )}
       </div>
   </div>
   );
