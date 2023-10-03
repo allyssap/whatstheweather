@@ -4,7 +4,7 @@
     ## Version 1: 
         -Simple GET request sent to API
         -VERY ugly 
-        ![Getting Started](./resources/V1-UI.png)
+        ![V1](/resources/V1-UI.png)
     
  
  To Do:
