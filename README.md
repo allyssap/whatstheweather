@@ -1,11 +1,14 @@
 # Whats the Weather
  simple react app to view the weather at your current location.
 
-    ## Version 1: 
+ Version 1: <img width="957" alt="V1-UI" src="https://github.com/allyssap/whatstheweather/blob/main/resources/V1-UI.png">
+
         -Simple GET request sent to API
         -VERY ugly 
-        ![V1](/resources/V1-UI.png)
-    
+        
+
+ 
+
  
  To Do:
  create an 'add location' button, a search bar will pop up and users can search for locations with the postal code, city and region, or coordinates!
